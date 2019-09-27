@@ -1,0 +1,16 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: Devops Server Automation
+  i18n: yml
+  gh_user: mani1soni
+  repo: Devops-Server-Automation
+  #img: /static/assets/img/landing/jekyll.png
+  desc: This project is containing four major parts. First one is Automated Cluster File system & Software installation, A File Server, Netboot Pre-execution environment and Dynamic Integrated Development Environment (IDE). We use devops technology to implement this project.
+
+- name: Virtual-Assistant
+  i18n: python
+  gh_user: mani1soni
+  repo: Virtual-Assistant
+  #img: /static/assets/img/landing/python.png
+  desc: virtual Assistant using Machine Learning
