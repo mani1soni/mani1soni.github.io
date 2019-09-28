@@ -20,6 +20,6 @@
   i18n: python
   gh_user: mani1soni
   repo: Real-Time-Face-Recognition
-  img: /static/assets/img/landing/face.jpeg
+  img: /static/assets/img/landing/fr.jpeg
   desc: This project contains Face detection and Face recognition using the famous Open Source Libraries OpenCV and face_recognition.
 
