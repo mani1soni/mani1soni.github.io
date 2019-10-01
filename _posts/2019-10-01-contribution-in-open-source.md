@@ -64,7 +64,7 @@ edu_adda is  an open source initiative, where anyone can share their knowledge b
     ```
 * Create a new pull request from your forked repository to `master` branch of `mani1soni/edu_adda`
 
-:tada: :confetti_ball: :smiley: _**Happy Contributing**_ :smiley: :confetti_ball: :tada:
+ _**Happy Contributing**_ 
 
 ## Technologies used
 * [Python](https://www.python.org/) 
