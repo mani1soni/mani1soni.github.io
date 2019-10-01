@@ -19,8 +19,9 @@ icon: icon-linux
 	<br>
 	<br>
 	<br>
-        
-# edu_adda
+
+# Edu_adda 
+<br>
 
 edu_adda is  an open source initiative, where anyone can share their knowledge by contributions.
 </div>
