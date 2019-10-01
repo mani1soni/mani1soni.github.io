@@ -9,7 +9,7 @@ tags: [Open Source,Github,Hacktoberfest,first PR, Tutorial,blog]
 icon: icon-linux
 ---
 
-#Here is my project Edu_Adda you can do contributions on it.
+# Here is my project Edu_Adda you can do contributions on it.
 
 <div align="center" id="top">
 	<br>
@@ -21,8 +21,6 @@ icon: icon-linux
 	<br>
         
 # edu_adda
-
-[![PRs Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](http://makeapullrequest.com) [![License](https://img.shields.io/badge/license-GPL-green.svg)](LICENSE)
 
 edu_adda is  an open source initiative, where anyone can share their knowledge by contributions.
 </div>
