@@ -23,3 +23,12 @@
   img: /static/assets/img/landing/fr.jpeg
   desc: This project contains Face detection and Face recognition using the famous Open Source Libraries OpenCV and face_recognition.
 
+- name: Edu_Adda
+  i18n: python
+  gh_user: mani1soni
+  repo: edu_adda
+  img: /static/assets/img/landing/edu_adda.png
+  desc: This is an Open Source Initiative, contributions are welcomed.
+
+
+
