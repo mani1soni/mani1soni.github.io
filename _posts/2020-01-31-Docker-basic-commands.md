@@ -113,9 +113,9 @@ BTW i'm not going to define them deeply, I am here to present essential commands
 * For Network
     ```
         $ docker network create [NETWORK_NAME] ==> for creating a network
-    ```
     
-    ```
+    
+    
         $ docker network ls ==> listing docker networks
     ```
     
@@ -123,22 +123,22 @@ BTW i'm not going to define them deeply, I am here to present essential commands
 
     ```
         $ docker logs [CONTAINER_NAME] ==> for all logs of container
-    ```
     
-    ```
+    
+    
         $ docker logs [CONTAINER_NAME] --tail (line_count) ==> for get specified lines 
     ```
     
 * For system_info (important)
     ```
         $ docker stats ==> live status of cpu, memory and network bandwidth usage of containers
-    ```
-
-    ```
-        $ docker system df -v ==> for  detail storage information of images and containers.
-    ```
     
-    ```
+
+    
+        $ docker system df -v ==> for  detail storage information of images and containers.
+    
+    
+   
         $ docker system prune ==> for deleting dangling images and unused containers.
     ```
     
@@ -150,14 +150,14 @@ BTW i'm not going to define them deeply, I am here to present essential commands
     you can also mount a volume to the container by using `-v` flag at run time.
 
 
-### Commands related to backup, restore and building images from container
+#### Commands related to backup, restore and building images from container
 
 * For backup & restore
     ```
         $ docker save [IMAGE_NAME] > [IMAGE_NAME].tar ==> saving images in `tar`
-    ```
     
-    ```
+    
+    
         $ docker load < [IMAGE_NAME].tar ==> for restoring a image.
     ```
 * For building images from container (sometimes baneficial)
@@ -167,10 +167,10 @@ BTW i'm not going to define them deeply, I am here to present essential commands
 
 #### Essential points for deploying applicaions with docker
 
-* Always mount the `volumes` in containers.
-* Always give `name` to the container.
-* Use `docker network` for same networking applications.
-* Always use `restart policies` in all environments.
+#####  _Always mount the `volumes` in containers._
+#####  _Always give `name` to the container._
+#####  _Use `docker network` for same networking applications._
+#####  _Always use `restart policies` in all environments._
    
 
  _**Happy Reading**_ 
