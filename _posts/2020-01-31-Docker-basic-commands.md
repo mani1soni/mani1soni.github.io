@@ -14,7 +14,7 @@ icon: icon-linux
 	<br>
 	<br>
 	<br>
-	<img width="500" height="350" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fitnext.io%2Fdocker-101-fundamentals-the-dockerfile-b33b59d0f14b&psig=AOvVaw2m6ysKkAa9jOhsZAyR6uDZ&ust=1580545651532000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPCs3sm1recCFQAAAAAdAAAAABBR" >
+	<img width="500" height="350" src="https://raw.githubusercontent.com/mani1soni/mani1soni.github.io/master/static/assets/img/docker.jpeg" >
 	<br>
 	<br>
 	<br>
@@ -23,12 +23,12 @@ icon: icon-linux
 </div>
 
 # Docker
-Have you ever stucked with "This code is properly running on my machine but why not on my team lead's? :weary: :weary:".
-So, what is the solution :confused: ?
-Don't Worry!, Docker is here to remove your platfrom dependencies.  
+# <p> Have you ever stucked with "This code is properly running on my machine but why not on my team lead's? :weary: :weary:".</p><br>
+<p> So, what is the solution :confused: ? <br>
+Don't Worry!, Docker is here to remove your platfrom dependencies. <br>  
 Docker is a set of platform as a service(PAAS) products that use OS-level virtualization to deliver software in packages called containers.
 Containers are isolated from one another and bundle their own software, libraries and configuration files; they can communicate with each other through well-defined channels.
-BTW i'm not going to define them deeply, I am here to present essential commands of docker that you should know while working with this. 
+BTW i'm not going to define them deeply, I am here to present essential commands of docker that you should know while working with this. </p> 
 
 
 #### Getting Started
@@ -179,22 +179,3 @@ BTW i'm not going to define them deeply, I am here to present essential commands
 
 
 
-
-
-
-
-
-
-
-
-
- _**Happy Contributing**_ 
-
-## Technologies used
-* [Python](https://www.python.org/) 
-* [groovy](https://groovy-lang.org/)
-* [java](https://www.java.com/en/)
-* [go](https://golang.org/)
-* [R](https://www.r-project.org)
-* [devops](https://devops.com/)
-* [AWS](https://aws.amazon.com/)
