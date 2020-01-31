@@ -23,7 +23,7 @@ icon: icon-linux
 </div>
 
 # Docker
-# <p> Have you ever stucked with "This code is properly running on my machine but why not on my team lead's?.<br>
+<p> Have you ever stucked with "This code is properly running on my machine but why not on my team lead's?.<br>
 So, what is the solution :confused: ? <br>
 Don't Worry!, Docker is here to remove your platfrom dependencies. <br>  
 Docker is a set of platform as a service(PAAS) products that use OS-level virtualization to deliver software in packages called containers.
@@ -98,13 +98,16 @@ BTW i'm not going to define them deeply, I am here to present essential commands
     ```
     
 #### Executing commands in container
+* For executing command
     ```
         $ docker exec -it [CONATINER_NAME] `bash/sh` or `command` ==> for executing shell or commands in interctive mode. 
     ```
-    
+* For attaching to container
     ```
         $ docker attach [CONATINER_NAME] ==> for attaching a running container.
     ```
+
+
 #### Commands related to Network, logs, system_info, volume
 
 * For Network
@@ -177,7 +180,7 @@ BTW i'm not going to define them deeply, I am here to present essential commands
 
 | <img alt="Manish Soni" src="https://avatars3.githubusercontent.com/u/30206849?s=460&v=4" height="70"   />                                                                                                                  |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Manish Soni](https://mani1soni.github.io/)<br><strong>Twitter</strong>: [@manisomanish](https://twitter.com/manisomanish)<br><strong>Github</strong>: [@mani1soni](https://github.com/mani1soni)<br> <strong>Linkedin<strong>: [@manisomanish](https://www.linkedin.com/in/manisomanish/)<br> _DevOps Engineer_ |
+| [Manish Soni](https://mani1soni.github.io/)<br><strong>Twitter</strong>: [@manisomanish](https://twitter.com/manisomanish)<br><strong>Github</strong>: [@mani1soni](https://github.com/mani1soni)<br> <strong>Linkedin<strong>: [@manisomanish](https://www.linkedin.com/in/manisomanish)<br> _DevOps Engineer_ |
 
 
 
