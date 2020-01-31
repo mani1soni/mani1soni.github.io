@@ -23,8 +23,8 @@ icon: icon-linux
 </div>
 
 # Docker
-# <p> Have you ever stucked with "This code is properly running on my machine but why not on my team lead's? :weary: :weary:".</p><br>
-<p> So, what is the solution :confused: ? <br>
+# <p> Have you ever stucked with "This code is properly running on my machine but why not on my team lead's?.<br>
+So, what is the solution :confused: ? <br>
 Don't Worry!, Docker is here to remove your platfrom dependencies. <br>  
 Docker is a set of platform as a service(PAAS) products that use OS-level virtualization to deliver software in packages called containers.
 Containers are isolated from one another and bundle their own software, libraries and configuration files; they can communicate with each other through well-defined channels.
@@ -34,17 +34,23 @@ BTW i'm not going to define them deeply, I am here to present essential commands
 #### Getting Started
 
 * Search Images on Docker Hub
+
     ```
         $ docker search "Image Name"
     ```
+
 * For Pull images from Docker Hub
+
     ```
         $ docker pull "Image Name"
     ```
-* Running a container, always give prper name to container for future refrence.   
+    
+* Running a container, always give prper name to container for future refrence.
+
     ```
         $ docker run --name [CONATINER_NAME] [IMAGE_NAME]
     ```
+    
     you can also use many flgs with this, like
     ```
         -it ==> For intrective terminal
@@ -52,39 +58,50 @@ BTW i'm not going to define them deeply, I am here to present essential commands
         -p ==> For port forwading
         --restart=always ==> Autostart on rebooting machine
     ```
+    
 * For start , stop , delete and checking images & container
+
     ```
         $ docker images ==> give a list of locally stored images
     ```
+    
     ``` 
         $ docker rmi -f [IMAGE_ID or NAME] ==> for deleting images(forcefully)
-    ```   
+    ```
+    
     ```
         $ docker rm -f [CONTAINER_ID or NAME] ==> for deleting container(forcefully)
     ```
+    
     ```
         $ docker rm -f [CONTAINER_ID or NAME] `$ docker ps -aq` ==> for forcefully deleting all containers(stopped and running both). 
     ```
+    
     ```
         $ docker ps ==> for running containers
     ```
-
+    
     ```
         $ docker ps -a ==> for attached containers(all running or not running)
     ```
+    
     ```
         $ docker start [CONTAINER_NAME] ==> for start a stopped container
     ```
+    
     ```
         $ docker stop [CONTAINER_NAME] ==> for stop a container
-    ``` 
+    ```
+    
     ```
         $ docker inspect [CONTAINER_NAME or IMAGE_NAME] ==> for inspecting them 
     ```
+    
 #### Executing commands in container
     ```
         $ docker exec -it [CONATINER_NAME] `bash/sh` or `command` ==> for executing shell or commands in interctive mode. 
     ```
+    
     ```
         $ docker attach [CONATINER_NAME] ==> for attaching a running container.
     ```
@@ -94,16 +111,21 @@ BTW i'm not going to define them deeply, I am here to present essential commands
     ```
         $ docker network create [NETWORK_NAME] ==> for creating a network
     ```
+    
     ```
         $ docker network ls ==> listing docker networks
     ```
+    
 * For logs
+
     ```
         $ docker logs [CONTAINER_NAME] ==> for all logs of container
     ```
+    
     ```
         $ docker logs [CONTAINER_NAME] --tail (line_count) ==> for get specified lines 
     ```
+    
 * For system_info (important)
     ```
         $ docker stats ==> live status of cpu, memory and network bandwidth usage of containers
@@ -112,13 +134,16 @@ BTW i'm not going to define them deeply, I am here to present essential commands
     ```
         $ docker system df -v ==> for  detail storage information of images and containers.
     ```
+    
     ```
         $ docker system prune ==> for deleting dangling images and unused containers.
     ```
+    
 * For volume
     ```
         $ docker volume create [CONTAINER_NAME] ==> for creating a volume
     ```
+    
     you can also mount a volume to the container by using `-v` flag at run time.
 
 
@@ -128,6 +153,7 @@ BTW i'm not going to define them deeply, I am here to present essential commands
     ```
         $ docker save [IMAGE_NAME] > [IMAGE_NAME].tar ==> saving images in `tar`
     ```
+    
     ```
         $ docker load < [IMAGE_NAME].tar ==> for restoring a image.
     ```
@@ -144,7 +170,7 @@ BTW i'm not going to define them deeply, I am here to present essential commands
 * Always use `restart policies` in all environments.
    
 
-:tada: :confetti_ball: :smiley: _**Happy Reading**_ :smiley: :confetti_ball: :tada:
+ _**Happy Reading**_ 
 
 #### Connect with me 
 
