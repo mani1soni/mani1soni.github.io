@@ -63,37 +63,37 @@ BTW i'm not going to define them deeply, I am here to present essential commands
 
     ```
         $ docker images ==> give a list of locally stored images
-    ```
     
-    ``` 
+    
+     
         $ docker rmi -f [IMAGE_ID or NAME] ==> for deleting images(forcefully)
-    ```
     
-    ```
+    
+    
         $ docker rm -f [CONTAINER_ID or NAME] ==> for deleting container(forcefully)
-    ```
     
-    ```
+    
+    
         $ docker rm -f [CONTAINER_ID or NAME] `$ docker ps -aq` ==> for forcefully deleting all containers(stopped and running both). 
-    ```
     
-    ```
+    
+    
         $ docker ps ==> for running containers
-    ```
     
-    ```
+    
+    
         $ docker ps -a ==> for attached containers(all running or not running)
-    ```
     
-    ```
+    
+    
         $ docker start [CONTAINER_NAME] ==> for start a stopped container
-    ```
+   
     
-    ```
+    
         $ docker stop [CONTAINER_NAME] ==> for stop a container
-    ```
     
-    ```
+    
+    
         $ docker inspect [CONTAINER_NAME or IMAGE_NAME] ==> for inspecting them 
     ```
     
