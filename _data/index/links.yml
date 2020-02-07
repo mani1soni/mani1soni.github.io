@@ -1,10 +1,10 @@
 # links section data
 
-#- last_name: Name 1
-#  first_name:
-#  desc: CEO
-#  website: https://www.google.com
-#  email: ceo@google.com
+- last_name: Soni
+  first_name: Manish
+  desc: My Open Source Project
+  website: https://github.com/mani1soni/edu_adda
+  email: manish.soni8403@gamil.com
 
 #- last_name: Donate
 #  first_name: Jalpc
