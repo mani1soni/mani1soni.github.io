@@ -45,13 +45,13 @@ BTW i'm not going to define them deeply, I am here to present essential commands
         $ docker pull "Image Name"
     ```
     
-* Running a container, always give prper name to container for future refrence.
+* Running a container, always give proper name to container for future refrence.
 
     ```
         $ docker run --name [CONATINER_NAME] [IMAGE_NAME]
     ```
     
-    you can also use many flgs with this, like
+    you can also use many flags with this, like
     ```
         -it ==> For intrective terminal
         -d ==> For detach mode
