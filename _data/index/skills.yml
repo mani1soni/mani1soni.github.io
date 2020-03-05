@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: Linux, Docker, Jenkins, AWS, Python, Git, Machine Learing, Ansible 
-percentage: 80,80, 90, 80, 80, 80,70,70
+aspects: Linux, Docker, Jenkins, AWS, Python, Git, Machine Learning, Ansible, Terraform 
+percentage: 80,80, 90, 80, 80, 80,50,70,70
