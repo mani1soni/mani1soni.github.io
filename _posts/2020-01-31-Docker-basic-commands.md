@@ -165,6 +165,67 @@ BTW i'm not going to define them deeply, I am here to present essential commands
         $ docker container commit  [CONTAINER_NAME] [IMAGE_NAME:TAG(repo_name)] ==> for commiting changes in container as image.
     ```
 
+## Docker-Compose
+<p> Docker-Compose is basically used for orchestration. This is used in application's development phase. let suppose you have multiple microservices and databases. you need to deploy all and also continuing your development then Docker-Compose is good option for that. <br>
+In Docker-Compose you need a docker-compose.yml file that contains all configurations like images, containers,volumes and network informations. Docker-Compose provides an environment where you can deploy many containers and do good networking easily. <br>
+I am here giving some essential docker-compose commands.
+</p>
+
+#### Commands - run where your docker-compose.yml file is situated.
+
+
+* Up the project
+
+    ```
+        $ docker-compose up               # This is in normal mode
+
+
+        
+        $ docker-compose up -d            # This will start in Detach mode
+
+        
+        
+        $ docker-compose up -d --build    # "--build" flag forcefully build the docker images
+
+        
+        
+        $ docker-compose -p "project_name" up -d  # "-p" flag add project name
+
+        
+        
+        $ docker-compose up -f docker-compose.yml    # "-f" flag to give compose file's path
+     ```
+
+*  Stop and remove containers, networks, images, and volumes
+
+    ```
+        $ docker-compose down
+    ```
+
+*  other commands
+  
+    ```
+        $ docker-compose exec "container_name"               # Execute a command in a running container
+  
+
+        
+        $ docker-compose images                              # List images
+  
+  
+        
+        $ docker-compose kill                                # Kill containers
+  
+        
+        
+        $ docker-compose logs                                # View output from containers
+  
+        
+        
+        $ docker-compse version                              # Show the Docker-Compose version information
+    
+    ```
+
+
 #### Essential points for deploying applicaions with docker
 
 #####  _Always mount the `volumes` in containers._
