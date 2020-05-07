@@ -55,7 +55,7 @@ BTW i'm not going to define them deeply, I am here to present essential commands
     ```
         -it ==> For intrective terminal
         -d ==> For detach mode
-        -p ==> For port forwading
+        -p ==> For port forwarding
         --restart=always ==> Autostart on rebooting machine
     ```
     
