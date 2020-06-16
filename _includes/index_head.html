@@ -1,7 +1,8 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1; minimum-scale=1; user-scalable=no;">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1 maximum-scale=1; minimum-scale=1; user-scalable=no;">
 
   <meta content="{{ site.description }}" name="description">
   <meta name="keywords" content="{{ site.keywords }}">
@@ -22,6 +23,28 @@
   {% if site.data.index.language %}
   <script src="{{"/static/assets/i18-20180125.min.js"| prepend: site.baseurl }}"></script>
   {% endif %}
+
+  <script type="text/javascript">
+    "use strict";
+    !function () {
+      var a = window.ChatGen || [];
+      if (!a.loaded) {
+        var s = document.createElement('script');
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://app.chatgen.ai/cmp/chat-widget/bot.js";
+        var fs = document.getElementsByTagName('script')[0];
+        fs.parentNode.insertBefore(s, fs);
+        s.onload = function () {
+          var yourKey = 'TSMtjYGp'
+          var widgetKey = { widget_key: yourKey }
+          ChatGen.init(widgetKey);
+        }
+      }
+    }();
+  </script>
+
+
 
   <!-- Google AdSense -->
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
