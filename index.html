@@ -66,3 +66,22 @@ iframe {
 }
 </style>
 <!-- <iframe src="https://www.maimemo.com/share/page/?uid=779139&pid=660" style="display: none;"></iframe> -->
+<script type="text/javascript">
+  "use strict";
+      !function () {
+          var a = window.ChatGen || [];
+          if (!a.loaded) {
+              var s = document.createElement('script');
+              s.type = "text/javascript";
+              s.async = true;
+              s.src = "https://app.chatgen.ai/cmp/chat-widget/bot.js";
+              var fs = document.getElementsByTagName('script')[0];
+              fs.parentNode.insertBefore(s, fs);
+              s.onload=function(){
+                  var yourKey = 'TSMtjYGp'
+                  var widgetKey = {widget_key: yourKey}
+                  ChatGen.init(widgetKey);
+              }
+          }
+      }();
+  </script>    
